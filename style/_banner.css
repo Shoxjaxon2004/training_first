@@ -1,0 +1,91 @@
+.header__banner-elements{
+    padding-top: 183px;
+    text-align: center;
+}
+.header__banner-text{
+    padding-bottom: 201px;
+}
+.header__banner-text h1{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;  
+}
+.header__banner-text p{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.header__banner-karta{
+    padding-bottom: 63px;
+}
+.header__banner-karta a{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #FFFFFF;
+}
+.header__banner-karta a:hover{
+    border-bottom:none;
+}
+.header__banner-links{
+    padding-bottom: 149px;
+}
+.header__banner-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__banner-links ul li{
+    list-style: none;
+    padding: 0 20px;
+    transition: all .3s ease;
+}
+.header__banner-links ul li a{
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.header__banner-links ul li span{
+    margin-right: 10px;
+    position: relative;
+}
+.header__banner-links ul li span img {
+    position: absolute;
+    left: -22px;
+    top: -1px;
+    transition: all .6s ease;
+}
+.header__banner-links ul li:hover{
+    transform: scale(1.1);
+}
+.header__banner-links ul li:hover a{
+    border: 2px solid #2CB049;
+    color: #2CB049;
+}
+.header__banner-links ul li:hover img{
+    transform: rotate(360deg);
+}
+
